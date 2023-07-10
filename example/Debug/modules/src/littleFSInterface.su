@@ -1,0 +1,7 @@
+../modules/src/littleFSInterface.cpp:20:5:int flash_init()	8	static
+../modules/src/littleFSInterface.cpp:40:5:int w25q64_read(const lfs_config*, lfs_block_t, lfs_off_t, void*, lfs_size_t)	32	static
+../modules/src/littleFSInterface.cpp:57:5:int w25q64_prog(const lfs_config*, lfs_block_t, lfs_off_t, const void*, lfs_size_t)	32	static
+../modules/src/littleFSInterface.cpp:71:5:int w25q64_erase(const lfs_config*, lfs_block_t)	24	static
+../modules/src/littleFSInterface.cpp:86:5:int w25q64_sync(const lfs_config*)	16	static
+../modules/src/littleFSInterface.cpp:90:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../modules/src/littleFSInterface.cpp:90:1:cpp)	8	static

@@ -1,0 +1,1 @@
+../modules/src/gpio_module.cpp:16:6:void initGPIOOutput(uint16_t, GPIO_TypeDef*)	48	static

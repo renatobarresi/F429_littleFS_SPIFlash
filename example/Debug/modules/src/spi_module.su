@@ -1,0 +1,9 @@
+../modules/src/spi_module.cpp:24:6:void HAL_SPI_MspInit(SPI_HandleTypeDef*)	48	static
+/home/renatobarresi/Renato/CESE_fiuba/Tesis/Code/littleFS_W25Qxx/modules/inc/spi_module.h:30:7:SPI::SPI()	16	static
+../modules/src/spi_module.cpp:58:6:static SPI& SPI::getInstance()	8	static
+../modules/src/spi_module.cpp:69:19:HAL_StatusTypeDef SPI::init()	24	static
+../modules/src/spi_module.cpp:103:19:HAL_StatusTypeDef SPI::transmit(uint8_t*, uint16_t)	24	static
+../modules/src/spi_module.cpp:115:19:HAL_StatusTypeDef SPI::receive(uint8_t*, uint16_t)	24	static
+../modules/src/spi_module.cpp:128:19:HAL_StatusTypeDef SPI::transmitReceive(uint8_t*, uint8_t*, uint16_t)	32	static
+../modules/src/spi_module.cpp:139:6:void SPI::csHigh(uint16_t, GPIO_TypeDef*)	24	static
+../modules/src/spi_module.cpp:150:6:void SPI::csLow(uint16_t, GPIO_TypeDef*)	24	static
